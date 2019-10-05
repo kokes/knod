@@ -3,8 +3,8 @@
 uvod k nkod
 
 ### Agregátory
-TODO: nkod
-TODO: lkody (Praha, Brno a tak)
+- TODO: nkod
+- TODO: lkody (Praha, Brno a tak)
 
 
 - Ministerstva (TODO: některá ministerstva mají v LKOD data k dalším institucím, vyjmenovat alespoň některé, jako u MŽP)
@@ -32,28 +32,28 @@ TODO: lkody (Praha, Brno a tak)
   - [Český telekomunikační úřad (ČTÚ)](https://data.ctu.cz)
 
 ### administrativni informace
-ares + justice + OVM?
+- ares + justice + OVM?
 
 ### dotace
-dotinfo, cedr, mmr?
-czechinvest
-szif (vč. článku o pirátech)
+- dotinfo, cedr, mmr?
+- czechinvest
+- szif (vč. článku o pirátech)
 
 ### Smlouvy
-registrsmluv
-hlidac smluv
+- registrsmluv
+- hlidac smluv
 
-adhoc smlouvy - často predatují datově (i existenčně) registr smluv
+- adhoc smlouvy - často predatují datově (i existenčně) registr smluv
  - například MKČR https://data.mkcr.cz/homepage/dataset/b679e84b-7163-4f4c-b08d-3b2c851dec69
 
 ### Zakázky
-vestnik (jak se liší?)
-profil zadavatele
-vsechny zakazky?
+- vestnik (jak se liší?)
+- profil zadavatele
+- vsechny zakazky?
 
 ### Faktury
 
-Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entitách, jestli své faktury zveřejní. Tato data jsou často cennější než smlouvy nebo zakázky, protože obsahují reálné útraty a jejich metadata jsou kvalitnější než např. u registru smluv.
+- Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entitách, jestli své faktury zveřejní. Tato data jsou často cennější než smlouvy nebo zakázky, protože obsahují reálné útraty a jejich metadata jsou kvalitnější než např. u registru smluv.
 
 - Ministerstva
   - [Ministerstvo dopravy](https://www.mdcr.cz/Ministerstvo/Otevrena-data/Faktury?returl=/Ministerstvo/Otevrena-data)
@@ -96,40 +96,35 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
   - Hlavní rozdíl proti Monitoru je ten, že Monitor má rozpočty na úrovni rozpočtových kapitol (např. odvoz odpadu), ale nemáte tam jednotlivé faktury, průběžné plnění, informace o dodavatelích atd. To je přesně mezera, kterou vyplňuje CityVizor.
   - [Praha má vlastní instanci CityVizoru.](https://cityvizor.praha.eu)
 
-### metainfo o statu
-statni pokladna
-seznam ovm od datovek
-psp
-volby
-centralni registr oznameni
-registr udaju (viz email od necaskeho)
-wikidata?
+### metainfo o statu
+- statni pokladna
+- seznam ovm od datovek
+- psp
+- volby
+- centralni registr oznameni
+- registr udaju (viz email od necaskeho)
+- wikidata?
 
 ### legislativa
-psp.cz o tvorbě
-eklep, veklep
-bude elegislativa, esbírka
-zákony pro lidi + ASPI?
+- psp.cz o tvorbě
+- eklep, veklep
+- bude elegislativa, esbírka
+- zákony pro lidi + ASPI?
 
 ### Regionální data
-golemio
-data.brno.cz
+- golemio
+- data.brno.cz
 
 ### Geodata
 
-ČUZK
-městská
-katastr
+- ČUZK
+- městská
+- katastr
 
 ### Ostatní
-ÚPV
-wikidata
-portal.gov.cz
-úřední desky
-
-
-
-
-Něco z ČSÚ? ČNB?
-
-https://data.gov.cz/wishlist/
+- ÚPV
+- wikidata
+- portal.gov.cz
+- úřední desky
+- Něco z ČSÚ? ČNB?
+- https://data.gov.cz/wishlist/
