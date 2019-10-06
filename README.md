@@ -2,7 +2,7 @@
 
 uvod k nkod
 
-### Agregátory
+### Katalogy
 - TODO: nkod
 - TODO: lkody (Praha, Brno a tak)
 
@@ -26,18 +26,34 @@ uvod k nkod
     - Obsahuje i data z ČHMÚ, Správy jeskyní, Správy NP Šumava a dalších přidružených organizací
   - [Ministerstvo školství, mládeže a tělovýchovy](https://data.msmt.cz)
 - Města
-  - Praha - http://opendata.praha.eu/
+  - [Hlavní město Praha](http://opendata.praha.eu/)
     - nejen město, ale i Operátor ICT, jednotlivé městské části, Městská knihovna atd.
+  - [Brno](https://data.brno.cz)
 - Ostatní
   - [Český telekomunikační úřad (ČTÚ)](https://data.ctu.cz)
 
 ### administrativni informace
 - ares + justice + OVM?
+- Některé informace o některých fyzických, právnických a veřejných entitách jde získat z [exportů datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
+  - Orgány veřejné moci mají sice DS povinně, ale u privátních subjektů to tak není, takže v datech nejsou zdaleka všechny.
 
-### dotace
-- dotinfo, cedr, mmr?
-- czechinvest
-- szif (vč. článku o pirátech)
+### Dotace
+- [DotInfo](https://www.dotinfo.cz)
+  - Ze systému DotInfo existuje [jeden export](http://data.mfcr.cz/cs/dataset/dotace-dotinfo) z roku 2017
+  - TODO: vysvětlit, proč bohužel tenhle dataset existuje
+- [Centrální evidence dotací (CEDR III)](http://cedr.mfcr.cz/cedr3internetv419/OpenData/DocumentationPage.aspx)
+  - obsahuje CSV exporty pro dotace, rozhodnutí nebo příjemce
+  - je možné dohledat informace v číselnících
+  - doporučuji [schéma na straně 12](http://cedropendata.mfcr.cz/c3lod/C3_OpenData%20-%20datov%C3%A1%20sada%20IS%20CEDR%20III.pdf), pro lepší pochopení relačního modelu
+  - TODO: popsat rozsah
+- , mmr?
+- opendata MS2014+
+- [CzechInvest](https://www.czechinvest.org/cz/Sluzby-pro-investory/Investicni-pobidky)
+  - udělené investiční pobídky
+  - starší data neobsahují IČO informace, tak pozor na to
+- [Státní zemědělský invervenční fond (SZIF)](https://www.szif.cz/irj/portal/szif/seznam-prijemcu-dotaci)
+  - Fond operuje s 30-40 miliardami ročně, na webu jsou jednotliví žadatelé k dohledání.
+  - Existují XML exporty pro poslední dva roky dat.
 
 ### Smlouvy
 - registrsmluv
@@ -78,9 +94,10 @@ uvod k nkod
     - Obsahuje i faktury [pro další přidružené organizace](https://opendata.mzp.cz/dataset?groups=faktury), např. pro Českou geologickou službu nebo Agenturu ochrany přírody a krajiny.
   - Ministerstvo školství, mládeže a tělovýchovy - nemá?
 - Samosprávy
-  - [Hlavní město Praha](http://opendata.praha.eu/dataset?q=faktury) - obsahuje nejen data pro magistrát, ale i pro některé městské části a městské podniky
+  - [Hlavní město Praha](http://opendata.praha.eu/dataset?q=faktury)
+    - obsahuje nejen data pro magistrát, ale i pro některé městské části a městské podniky
 - Ostatní
-  - ČTÚ
+  - [Český telekomunikační úřad (ČTÚ)](http://data.ctu.cz/dataset/faktury)
   - [IPR](http://opendata.praha.eu/dataset/ipr-faktury) - Institut plánování a rozvoje
 
 ### Ostatní výdaje
@@ -96,13 +113,12 @@ uvod k nkod
   - Hlavní rozdíl proti Monitoru je ten, že Monitor má rozpočty na úrovni rozpočtových kapitol (např. odvoz odpadu), ale nemáte tam jednotlivé faktury, průběžné plnění, informace o dodavatelích atd. To je přesně mezera, kterou vyplňuje CityVizor.
   - [Praha má vlastní instanci CityVizoru.](https://cityvizor.praha.eu)
 
-### metainfo o statu
-- statni pokladna
-- seznam ovm od datovek
+### Metainfo o státu
+- Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
 - psp
 - volby
 - centralni registr oznameni
-- registr udaju (viz email od necaskeho)
+- registr prav a povinnosti
 - wikidata?
 
 ### legislativa
@@ -122,7 +138,7 @@ uvod k nkod
 - katastr
 
 ### Ostatní
-- ÚPV
+- [Úřad průmyslového vlastnictví (ÚPV)](https://isdv.upv.cz/webapp/webapp.opendata.tm) - denní exporty v XML
 - wikidata
 - portal.gov.cz
 - úřední desky
