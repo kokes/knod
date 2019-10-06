@@ -1,11 +1,11 @@
 # Katalog nejen otevřených dat
 
-uvod k nkod
+Středobod českých otevřených dat je [NKOD](https://data.gov.cz), národní katalog otevřených dat. Je v něm spousta zajímavých informací, ale pro takový ten letmý přehled o tom, jaká data jsou k dispozici, je celkem obtížně použitelný.
+
+Nechceme tedy NKOD replikovat, jde nám o trochu obecnější přehled, aby si každý mohl dohledat data pro jednotlivé oblasti zájmu.
 
 ### Katalogy
 - TODO: nkod
-- TODO: lkody (Praha, Brno a tak)
-
 
 - Ministerstva (TODO: některá ministerstva mají v LKOD data k dalším institucím, vyjmenovat alespoň některé, jako u MŽP)
   - [Ministerstvo dopravy](https://www.mdcr.cz/Ministerstvo/Otevrena-data)
@@ -136,11 +136,13 @@ uvod k nkod
 - ČUZK
 - městská
 - katastr
+- IPR prazsky model
 
 ### Ostatní
 - [Úřad průmyslového vlastnictví (ÚPV)](https://isdv.upv.cz/webapp/webapp.opendata.tm) - denní exporty v XML
 - wikidata
 - portal.gov.cz
+- rozhlas data
 - úřední desky
-- Něco z ČSÚ? ČNB?
+- Něco z ČSÚ? ČNB (ARAD)?
 - https://data.gov.cz/wishlist/
