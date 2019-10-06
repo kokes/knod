@@ -90,7 +90,7 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
 
 ### Faktury
 
-- Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entitách, jestli své faktury zveřejní. Tato data jsou často cennější než smlouvy nebo zakázky, protože obsahují reálné útraty a jejich metadata jsou kvalitnější než např. u registru smluv.
+Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entitách, jestli své faktury zveřejní. Tato data jsou často cennější než smlouvy nebo zakázky, protože obsahují reálné útraty a jejich metadata jsou kvalitnější než např. u registru smluv.
 
 - Ministerstva
   - [Ministerstvo dopravy](https://www.mdcr.cz/Ministerstvo/Otevrena-data/Faktury?returl=/Ministerstvo/Otevrena-data)
@@ -135,7 +135,16 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
 
 ### Metainfo o státu
 - Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
-- psp
+- [Otevřená data Czech POINTu](http://www.czechpoint.cz/public/vyvojari/otevrena-data/) mají též seznam orgánů veřejné moci
+- [Data Poslanecké sněmovny a Senátu](https://www.psp.cz/sqw/hp.sqw?k=1300)
+  - Jde o sadu datasetů, kterou na webu nikdy nenajdete, je ale velmi cenná.
+  - Jde o denně aktualizované soubory, ve formátu podobné CSV, jejich zpracování je celkem snadné, jen pozor, jsou normalizovaná, takže budete občas joinovat přes několik tabulek.
+  - Obsahuje mj.
+    - Hlasování ve Sněmovně (od vzniku České republiky)
+    - Stenozáznamy
+    - Tisky ze Sněmovny i Senátu
+    - Plány schůzí
+    - Interpelace
 - [Volby](https://volby.cz/opendata/opendata.htm)
   - Český statistický úřad nabízí data z voleb jako otevřená data, má to však několik zádrhelů.
   - Starší data jsou zpravidla v jiném formátu než ta současná (např. FoxPro vs. XML vs. CSV), takže pro delší časové řady musí člověk trochu pracovat.
