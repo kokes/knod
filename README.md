@@ -121,8 +121,7 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
 
 ### Ostatní výdaje
 - [Česká správa sociálního zabezpečení (ČSSZ)](https://data.cssz.cz)
-- random smlouvy, faktury
-- czechinvest
+  - ČSSZ nabízí převážně přehledové datasety - počty penzistů, OSVČ, průměrné mzdy, průměrné důchody, statistiky pracovní neschopnosti, typy důchodů atd.
 
 ### Rozpočty
 - [Monitor](https://monitor.statnipokladna.cz/) Státní pokladny je _aplikace_ pro rozklikávání rozpočtů a dalších účetních informací o spoustě složek státu - měst, obcí, příspěvkových organizací, škol atd.
@@ -135,10 +134,15 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
 ### Metainfo o státu
 - Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
 - psp
-- volby
-- centralni registr oznameni
+- [Volby](https://volby.cz/opendata/opendata.htm)
+  - Český statistický úřad nabízí data z voleb jako otevřená data, má to však několik zádrhelů.
+  - Starší data jsou zpravidla v jiném formátu než ta současná (např. FoxPro vs. XML vs. CSV), takže pro delší časové řady musí člověk trochu pracovat.
+  - Otevřená data neobsahují informace o historicky všech volbách v České republice, plné pokrytí je až cca od roku 2004. Pro starší informace musí jít člověk na web [volby.cz](https://volby.cz) a dohledat údaje tam.
+  - Kandidáti ani zvolení zastupitelé nemají žádný unikátní identifikátor, celkem špatně se tedy mapují např. na angažované osoby z ARES nebo Justice, nemáme totiž ani datum narození, jen věk osoby, který není platný k nějakém určitému datu.
+- [Centrální registr oznámení](https://cro.justice.cz)
 - registr prav a povinnosti
 - wikidata?
+- sčítání?
 
 ### legislativa
 - psp.cz o tvorbě
