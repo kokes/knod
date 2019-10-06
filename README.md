@@ -5,11 +5,14 @@ Středobod českých otevřených dat je [NKOD](https://data.gov.cz), národní 
 Nechceme tedy NKOD replikovat, jde nám o trochu obecnější přehled, aby si každý mohl dohledat data pro jednotlivé oblasti zájmu.
 
 ### Katalogy
-- TODO: nkod
 
-- Ministerstva (TODO: některá ministerstva mají v LKOD data k dalším institucím, vyjmenovat alespoň některé, jako u MŽP)
+[Národní katalog otevřených dat (NKOD)](https://data.gov.cz) je katalog všech katalogů, jednotlivé úřady a instituce si ale občas založí vlastní katalog, lokální katalog otevřených dat (LKOD), zde je výpis některých z nich.
+
+- Ministerstva
   - [Ministerstvo dopravy](https://www.mdcr.cz/Ministerstvo/Otevrena-data)
+    - obsahuje i data pro Státní fond dopravní infrastruktury, Řízení letového provozu nebo Drážního úřadu
   - [Ministerstvo financí](http://data.mfcr.cz/)
+    - má i data z Generálního finančního ředitelství, Generálního ředitelství cel a dalších
   - [Ministerstvo kultury](https://data.mkcr.cz)
   - [Ministerstvo obrany](https://data.army.cz)
   - Ministerstvo práce a sociálních věcí - asi nemá?
@@ -21,6 +24,7 @@ Nechceme tedy NKOD replikovat, jde nám o trochu obecnější přehled, aby si k
   - Ministerstvo vnitra - nemá? asi fakt ne, maj NKOD
   - Ministerstvo zahraničních věcí - nemá?
   - [Ministerstvo zdravotnictví](https://opendata.mzcr.cz)
+    - včetně dat z krajských hygienických stanic, Národního ústavu duševního zdraví nebo Koordinačního střediska transplantací.
   - Ministerstvo zemědělství - nemá?
   - [Ministerstvo životního prostředí](https://opendata.mzp.cz)
     - Obsahuje i data z ČHMÚ, Správy jeskyní, Správy NP Šumava a dalších přidružených organizací
