@@ -36,10 +36,25 @@ Nechceme tedy NKOD replikovat, jde nám o trochu obecnější přehled, aby si k
 - Ostatní
   - [Český telekomunikační úřad (ČTÚ)](https://data.ctu.cz)
 
-### administrativni informace
-- ares + justice + OVM?
+### Administrativni informace
+
+K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o smluvních stranách, protože tato data jsou v transakčních datasetech zpravidla nedostačující. Neexistuje jedno centrální úložiště, je několik zdrojů těchto informací, záleží na tom, co člověk požaduje.
+
 - Některé informace o některých fyzických, právnických a veřejných entitách jde získat z [exportů datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
   - Orgány veřejné moci mají sice DS povinně, ale u privátních subjektů to tak není, takže v datech nejsou zdaleka všechny.
+  - Dobré pro přehled o orgánech veřejné moci, případně jako zdroj pro mapování z adres datových schránek na IČO či naopak.
+- [Administrativní registr ekonomických subjektů (ARES)](https://wwwinfo.mfcr.cz/ares/ares.html.cz)
+  - Historicky nejpodstatnější dataset pro administrativní data, do dneška má svou relevanci.
+  - V sekci _XML služby_ najdete popis řady endpointů, ideální pro získání informací o několika málo subjektech. Nejdůležitější je OR (obchodní rejstřík - údaje z Justice), RES (registr ekonomických subjektů - základní údaje od Českého statistického úřadu) a RŽP (živnostenský rejstřík).
+  - API mají limity v řádek desítek tisíc dotazů denně, tak pozor na to, protože můžete být snadno zablokováni.
+  - V sekci _otevřená data_ je relativně nově **bulkový export** obchodního rejstříku. Obsahuje skoro vše, co by člověk potřeboval o právnických osobách - chybí historie názvů subjektů a data narození fyzických osob (jednatelů, společníků atd.).
+  - MFČR tento registr provozuje, ale data jen poskytuje dál, nejsou v jeho vlastnictví.
+- [Otevřená data Veřejného rejstříku a Sbírky listin](https://dataor.justice.cz)
+  - Ministerstvo Spravedlnosti poskytuje export dat z webu Justice.cz, zejm. z rejstříku právnických osob. Cokoliv vidíte na webové verzi rejstříku, to si můžete stáhnout v XML v bulkové formě.
+  - Pro aktuální informace stačí stáhnout data pro současný rok a všechny rejstříkové soudy a právní formy. Bohužel nejde stáhnout vše najednou nějak jednodušeji.
+  - Informace o zaniklých subjektech je trochu těžší získat, protože firma zaniklá v roce 2009 bude naposledy v datasetu pro rok 2009, takže člověk musí stáhnout data pro všechny roky, aby získal informace o všech zaniklých subjektech. Tato limitace se netýká exportů ARES výše, tam je snadné získat informace o zaniklých subjektech.
+  - Oproti ARES člověk získá informace o akcionářích, insolvencích a dalších metadatech.
+  - **Tento dataset bude v budoucnu jediný nutný pro identifikaci smluvních stran, v tuto chvíli má stále několik zádrhelů.**
 
 ### Dotace
 - [DotInfo](https://www.dotinfo.cz)
