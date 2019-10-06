@@ -65,8 +65,10 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
   - je možné dohledat informace v číselnících
   - doporučuji [schéma na straně 12](http://cedropendata.mfcr.cz/c3lod/C3_OpenData%20-%20datov%C3%A1%20sada%20IS%20CEDR%20III.pdf), pro lepší pochopení relačního modelu
   - TODO: popsat rozsah
-- , mmr?
-- opendata MS2014+
+- [MS2014+](https://ms14opendata.mssf.cz) a [Seznam operací/příjemců](https://dotaceeu.cz/cs/Statistiky-a-analyzy/Seznamy-prijemcu)
+  - Dva datasety od MMR ohledně evropských dotací, tedy vyšších desítkách miliard ročně.
+  - MS2014+ jsou otevřená data přímo z informačního systému pro správu dotací, obsahují strukturovaná data o dotacích pro období 2014-2020.
+  - Druhý dataset, Seznam operací, obsahuje data pro období 2007-13 a 2014-20, jde ale o celkem zvláštně strukturované Excely, které se navíc v čase mění. Takže pro nahlížení dobré, ale pro analytiku je lepší export z MS2014+.
 - [CzechInvest](https://www.czechinvest.org/cz/Sluzby-pro-investory/Investicni-pobidky)
   - udělené investiční pobídky
   - starší data neobsahují IČO informace, tak pozor na to
