@@ -77,11 +77,17 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
   - Existují XML exporty pro poslední dva roky dat.
 
 ### Smlouvy
-- registrsmluv
-- hlidac smluv
-
-- adhoc smlouvy - často predatují datově (i existenčně) registr smluv
- - například MKČR https://data.mkcr.cz/homepage/dataset/b679e84b-7163-4f4c-b08d-3b2c851dec69
+- [Registr smluv](https://smlouvy.gov.cz)
+  - Jde o přelomový informační systém, kam mají tisíce veřejných subjektů povinnost publikovat skoro všechny smlouvy přesahující hodnotu 50 tisíc Kč (jsou výjimky mj. z důvodů bezpečnosti či obchodních tajemství).
+  - [Poskytuje otevřená data](https://smlouvy.gov.cz/stranka/otevrena-data) na denní bázi ve formátu XML.
+  - Systém lze používat napřímo, zprácováním dat nebo přes [Hlídače státu](https://www.hlidacstatu.cz), nejznámějšího zpracovatele těchto dat, kde jsou krom smluvních dat prolinkovány další datasety pro lepší kontext a analytiku.
+- Ad hoc smluvní data
+  - Před účinností Registru smluv publikovaly některé subjekty smluvní informace z vlastního popudu.
+  - Výhodou těchto dat je, že smlouvy často predatují vznik Registru smluv - do registru totiž subjekty vkládají jen nové smlouvy (případně staré smlouvy, pokud je nové smlouvy rozšiřují, žádné dávkové vkládání starých smluv se ale nekoná).
+  - Příklady exportů
+    - [Ministerstvo kultury](https://data.mkcr.cz/homepage/dataset/b679e84b-7163-4f4c-b08d-3b2c851dec69) - data pro 1994-2019
+    - [Ministerstvo pro místní rozvoj a jeho přidružené organizace](http://data.mmr.cz/dataset?q=smlouvy)
+    - TODO: další instituce
 
 ### Zakázky
 - vestnik (jak se liší?)
@@ -178,6 +184,7 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
 - [Úřad průmyslového vlastnictví (ÚPV)](https://isdv.upv.cz/webapp/webapp.opendata.tm) - denní exporty v XML
 - wikidata
 - portal.gov.cz
+- politicke finance
 - rozhlas data
 - úřední desky
 - insolvence
