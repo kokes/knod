@@ -150,12 +150,14 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
   - Starší data jsou zpravidla v jiném formátu než ta současná (např. FoxPro vs. XML vs. CSV), takže pro delší časové řady musí člověk trochu pracovat.
   - Otevřená data neobsahují informace o historicky všech volbách v České republice, plné pokrytí je až cca od roku 2004. Pro starší informace musí jít člověk na web [volby.cz](https://volby.cz) a dohledat údaje tam.
   - Kandidáti ani zvolení zastupitelé nemají žádný unikátní identifikátor, celkem špatně se tedy mapují např. na angažované osoby z ARES nebo Justice, nemáme totiž ani datum narození, jen věk osoby, který není platný k nějakém určitému datu.
-- [Centrální registr oznámení](https://cro.justice.cz)
+- [Centrální registr oznámení](https://cro.justice.cz) je informační systém založen pro účely zákona o střetu zájmů.
+  - Obsahuje data o veřejných činitelích (soudci, zastupitelé, poslanci, ...), zejména pak jejich majetkové poměry, účastnictví ve firmách a funkce/členství.
+  - _Systém nemá datový export nebo veřejné API_, k nahližení je ale i tak užitečný.
 - registr prav a povinnosti
 - wikidata?
 - sčítání?
 
-### legislativa
+### Legislativa
 - psp.cz o tvorbě
 - eklep, veklep
 - bude elegislativa, esbírka
@@ -178,5 +180,6 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
 - portal.gov.cz
 - rozhlas data
 - úřední desky
+- insolvence
 - Něco z ČSÚ? ČNB (ARAD)?
 - https://data.gov.cz/wishlist/
