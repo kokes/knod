@@ -140,8 +140,11 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
   - [Praha má vlastní instanci CityVizoru.](https://cityvizor.praha.eu)
 
 ### Metainfo o státu
-- Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
-- [Otevřená data Czech POINTu](http://www.czechpoint.cz/public/vyvojari/otevrena-data/) mají též seznam orgánů veřejné moci
+- Orgány veřejné moci
+  - Často je třeba identifikovat složky státu, ať už pro kategorizaci dat (jdou finance od soukromníka státu nebo mezi soukromníky atd.) nebo třeba pro adresnou komunikaci. Bohužel neexistuje jeden autoritativní zdroj.
+  - Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
+  - [Otevřená data Czech POINTu](http://www.czechpoint.cz/public/vyvojari/otevrena-data/) mají též seznam orgánů veřejné moci
+  - Registr práv a povinností má [webový náhled](https://rpp-ais.egon.gov.cz/AISP/verejne/katalog-ovm/8129) a [JSON export](https://data.gov.cz/datová-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatové-sady%2FMV%2F706529437%2F44a9d6abacd4d0e83a0694e74d028f51) těchto dat
 - [Data Poslanecké sněmovny a Senátu](https://www.psp.cz/sqw/hp.sqw?k=1300)
   - Jde o sadu datasetů, kterou na webu nikdy nenajdete, je ale velmi cenná.
   - Jde o denně aktualizované soubory, ve formátu podobné CSV, jejich zpracování je celkem snadné, jen pozor, jsou normalizovaná, takže budete občas joinovat přes několik tabulek.
