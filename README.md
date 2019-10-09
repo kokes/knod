@@ -140,6 +140,9 @@ Neexistuje centralizace faktur, je na jednotlivých úřadech či jiných entit�
   - [Praha má vlastní instanci CityVizoru.](https://cityvizor.praha.eu)
 
 ### Metainfo o státu
+
+TODO: prolinkovat toto nějak s admin informacemi výše? Aby člověk nemusel scrollovat mezi nima, obojí patří pod stejnou podkategorii
+
 - Orgány veřejné moci
   - Často je třeba identifikovat složky státu, ať už pro kategorizaci dat (jdou finance od soukromníka státu nebo mezi soukromníky atd.) nebo třeba pro adresnou komunikaci. Bohužel neexistuje jeden autoritativní zdroj.
   - Seznam orgánů veřejné moci (OVM) je možné získat z [exportu datových schránek](https://www.mojedatovaschranka.cz/sds/welcome.do?part=opendata)
