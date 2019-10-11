@@ -179,6 +179,11 @@ TODO: prolinkovat toto nějak s admin informacemi výše? Aby člověk nemusel s
 - golemio
 - data.brno.cz
 
+### Zdravotnictví
+- ÚZIS (viz hackathon 2019, ale bude toho i víc)
+- SÚKL
+- má něco ministerstvo?
+
 ### Geodata
 
 - ČUZK
