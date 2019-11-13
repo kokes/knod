@@ -4,6 +4,21 @@ Středobod českých otevřených dat je [NKOD](https://data.gov.cz), národní 
 
 Nechceme tedy NKOD replikovat, jde nám o trochu obecnější přehled, aby si každý mohl dohledat data pro jednotlivé oblasti zájmu.
 
+- [Katalogy](#katalogy)
+- [Administrativni informace](#administrativni-informace)
+- [Dotace](#dotace)
+- [Smlouvy](#smlouvy)
+- [Zakázky](#zakázky)
+- [Faktury](#faktury)
+- [Ostatní výdaje](#ostatní-výdaje)
+- [Rozpočty](#rozpočty)
+- [Metainfo o státu](#metainfo-o-státu)
+- [Legislativa](#legislativa)
+- [Regionální data](#regionální-data)
+- [Zdravotnictví](#zdravotnictví)
+- [Geodata](#geodata)
+- [Ostatní](#ostatní)
+
 ### Katalogy
 
 [Národní katalog otevřených dat (NKOD)](https://data.gov.cz) je katalog všech katalogů, jednotlivé úřady a instituce si ale občas založí vlastní katalog, lokální katalog otevřených dat (LKOD), zde je výpis některých z nich.
