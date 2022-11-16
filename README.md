@@ -72,14 +72,15 @@ K transakčním datům (dotace, smlouvy, zakázky, ...) je třeba doplnit data o
   - **Tento dataset bude v budoucnu jediný nutný pro identifikaci smluvních stran, v tuto chvíli má stále několik zádrhelů.**
 
 ### Dotace
+
 - [DotInfo](https://www.dotinfo.cz)
   - Ze systému DotInfo existuje [jeden export](http://data.mfcr.cz/cs/dataset/dotace-dotinfo) z roku 2017
   - TODO: vysvětlit, proč bohužel tenhle dataset existuje
-- [Centrální evidence dotací (CEDR III)](http://cedr.mfcr.cz/cedr3internetv419/OpenData/DocumentationPage.aspx)
+- [IS ReD](https://red.financnisprava.cz/)
   - obsahuje CSV exporty pro dotace, rozhodnutí nebo příjemce
   - je možné dohledat informace v číselnících
-  - doporučuji [schéma na straně 12](http://cedropendata.mfcr.cz/c3lod/C3_OpenData%20-%20datov%C3%A1%20sada%20IS%20CEDR%20III.pdf), pro lepší pochopení relačního modelu
-  - TODO: popsat rozsah
+  - doporučuji [diagram](https://red.financnisprava.cz/open-data) pro lepší pochopení relačního modelu
+  - nástupce systému CEDR III
 - [MS2014+](https://ms14opendata.mssf.cz) a [Seznam operací/příjemců](https://dotaceeu.cz/cs/Statistiky-a-analyzy/Seznamy-prijemcu)
   - Dva datasety od MMR ohledně evropských dotací, tedy vyšších desítkách miliard ročně.
   - MS2014+ jsou otevřená data přímo z informačního systému pro správu dotací, obsahují strukturovaná data o dotacích pro období 2014-2020.
